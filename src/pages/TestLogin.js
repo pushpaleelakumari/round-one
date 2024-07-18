@@ -45,7 +45,7 @@ const TestLogin = () => {
                         <div className="my-3">
                             <label htmlFor="password">
                                 Password <span className="text-danger">*</span>
-                            </label>required
+                            </label>
                             <input type='password' required onChange={(e) => handleChange(e, 'password')} name="name" className="form-control" placeholder="Enter your password" />
                             {(!form?.password && error) &&
                                 <div className="text-danger">Please enter your password</div>}
